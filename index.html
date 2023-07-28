@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    
+</head>
+<body>
+<div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://pixabay.com/get/g423d3fb56858d7adfa3a0f6438185398899ea9fe3859305d06e852664a15df60d33e72cb88a35157fc738378737b99a2dadd8c32665052684266f5bc89ae4cca_1280.jpg">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://pixabay.com/get/g24f2af4e0f025a12e494ec834ae179e3a287fa9d90181cc3b85cc9e6084d04479dd50dacaf92d5d851049c9c40396a4536e13dcd1da478860d2c26a5284ddde6_1280.jpg">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://pixabay.com/get/g32c021ac5964172aed94084b36c4dd00ea29289b79cfee6ca2a3172cd48aa029cf169a64054cbeb0ce4cb8257e14571f0e64823b8213fe2f6f8df303f05f6f66_1280.jpg">
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo"  class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://pixabay.com/get/gfe20268aecf47a064b29bc8ceac2d93c55ee6b0ec5830fd79efc06190993867b99e77d6bdb47dcbf826bd78f97726396_640.jpg" class="card-img-top" alt="Item 1">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Mensagem motivacional 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusantium odio ea ducimus quibusdam laborum iure! Error temporibus delectus quasi saepe ullam? Incidunt ipsa fugiat sequi, tenetur adipisci quo aliquid.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://pixabay.com/get/ga6a3e45d0a74ed6aa2ca34239a330b107089e2785f38d839036d6853afa18779ad6dff34f78fb09290efa87160f670d5_640.jpg" class="card-img-top" alt="Item 2">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Mensagem motivacional 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusantium odio ea ducimus quibusdam laborum iure! Error temporibus delectus quasi saepe ullam? Incidunt ipsa fugiat sequi, tenetur adipisci quo aliquid.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://pixabay.com/get/ga21f5da85922566e73c9475443522f357f01912d6bb309f371c646003ea66aace56ca82a55ed89d113c0e1013b068ebc_640.jpg" class="card-img-top" alt="Item 3">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Mensagem motivacional 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusantium odio ea ducimus quibusdam laborum iure! Error temporibus delectus quasi saepe ullam? Incidunt ipsa fugiat sequi, tenetur adipisci quo aliquid.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
